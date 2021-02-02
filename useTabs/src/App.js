@@ -25,7 +25,7 @@ const useTabs = (initialTab, allTabs) => {
 };
 
 const App = () => {
-  const { currentItem } = useTabs(0, content);
+  const { currentItem, changeItem} = useTabs(0, content);
   return (
     <div className="App">
       {content.map((section, index) => (
