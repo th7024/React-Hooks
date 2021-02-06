@@ -1,7 +1,12 @@
 # React_Hooks
 ### hooks 사용 이유
-hooks를 사용하지 않고 클래스로 컴포넌트를 구성하게 되면 render등을 사용하기 때문에 소스의 길이가 길어지게 된다. hooks는 state를 사용할 수 있다.
-- https://ehddnjs8989.medium.com/react-hooks-%EC%82%AC%EC%9A%A9%EC%9D%B4%EC%9C%A0-ce03c66a53b0
+hooks를 사용하지 않고 클래스로 컴포넌트를 구성하게 되면 render등을 사용하기 때문에 소스의 길이가 길어지게 된다. hooks는 state를 사용할 수 있다.<br>
+1) 컴포넌트 사이에서 상태와 관련된 로직을 재 사용하기 어렵다.<br>
+2) 복잡한 컴포넌트들은 이해하기 어렵다.<br>
+3) Class는 사람과 기계를 혼동 시킨다.<br>
+4) 개념적으로 React는 컴포넌트는 항상 함수에 더 가깝다.
+- React - Functional Component의 장점, Hook
+
 - 리엑트 라이프 사이클<br>
 React 컴포넌트는 생명 주기가 있습니다. 생애 주기 또는 라이프사이클(Life cycle)이라고도 많이 표현합니다. 컴포넌트가 실행되거나 업데이트되거나 제거될 때, 특정한 이벤트들이 발생합니다.
 <br>
