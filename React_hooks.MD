@@ -17,7 +17,8 @@ React 컴포넌트는 생명 주기가 있습니다. 생애 주기 또는 라이
   <br> 마운트 되고 나서 : componentDidMount <br> 업데이트 되었을 때 : componentDidUpdate <br> 언마운트 : componentWillUnmount
   https://www.zerocho.com/category/React/post/5f9a6ef507be1d0004347305
 - use state<br>
-useState를 호출하는 것은 무엇을 하는 걸까요? “state 변수”를 선언할 수 있습니다. 위에 선언한 변수는 count라고 부르지만 banana처럼 아무 이름으로 지어도 됩니다. useState는 클래스 컴포넌트의 this.state가 제공하는 기능과 똑같습니다. 일반적으로 일반 변수는 함수가 끝날 때 사라지지만, state 변수는 React에 의해 사라지지 않습니다.
 
-useState의 인자로 무엇을 넘겨주어야 할까요? useState()Hook의 인자로 넘겨주는 값은 state의 초기 값입니다. 함수 컴포넌트의 state는 클래스와 달리 객체일 필요는 없고, 숫자 타입과 문자 타입을 가질 수 있습니다. 위의 예시는 사용자가 버튼을 얼마나 많이 클릭했는지 알기를 원하므로 0을 해당 state의 초기 값으로 선언했습니다. (2개의 다른 변수를 저장하기를 원한다면 useState()를 두 번 호출해야 합니다.)
+- useState의 인자
+ useState()Hook :state의 초기 값
+  함수 컴포넌트의 state는 클래스와 달리 객체일 필요는 없고, 숫자 타입과 문자 타입을 가질 수 있음
 - use effect
